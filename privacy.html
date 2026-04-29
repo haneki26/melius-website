@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Melius AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-70 -70 140 140'><polygon points='0,-65 -5,-38 5,-38' fill='%23C9A84C'/><polygon points='0,65 -5,38 5,38' fill='%23C9A84C'/><polygon points='-65,0 -38,-5 -38,5' fill='%23C9A84C'/><polygon points='65,0 38,-5 38,5' fill='%23C9A84C'/><polygon points='-46,-46 -28,-23 -23,-28' fill='%23C9A84C'/><polygon points='46,-46 28,-23 23,-28' fill='%23C9A84C'/><polygon points='-46,46 -28,23 -23,28' fill='%23C9A84C'/><polygon points='46,46 28,23 23,28' fill='%23C9A84C'/><circle cx='0' cy='0' r='30' fill='%23C9A84C'/></svg>" />
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --gold: #C9A84C;
+      --ink: #0E0E0E;
+      --ink-soft: #3A3A3A;
+      --ink-muted: #787878;
+      --paper: #FAFAF8;
+      --paper-warm: #F4F3EF;
+      --border: rgba(0,0,0,0.07);
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-body: 'DM Sans', system-ui, sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font-body);
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.7;
+    }
+    nav {
+      padding: 18px 48px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--border);
+      background: var(--paper);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .nav-logo {
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      font-style: italic;
+      color: var(--ink);
+      text-decoration: none;
+    }
+    .nav-logo span { color: var(--gold); }
+    .nav-back {
+      font-size: 0.85rem;
+      color: var(--ink-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .nav-back:hover { color: var(--gold); }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 64px 24px 120px;
+    }
+    .page-eyebrow {
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 14px;
+    }
+    .page-title {
+      font-family: var(--font-display);
+      font-size: 3rem;
+      font-weight: 300;
+      font-style: italic;
+      color: var(--ink);
+      line-height: 1.1;
+      margin-bottom: 12px;
+    }
+    .page-updated {
+      font-size: 0.8rem;
+      color: var(--ink-muted);
+      margin-bottom: 48px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .intro {
+      font-size: 1.05rem;
+      color: var(--ink-soft);
+      line-height: 1.8;
+      margin-bottom: 48px;
+      font-weight: 300;
+    }
+    h2 {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: var(--ink);
+      margin: 40px 0 14px;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+    }
+    h2:first-of-type { margin-top: 0; border-top: none; }
+    p {
+      font-size: 0.95rem;
+      color: var(--ink-soft);
+      line-height: 1.8;
+      font-weight: 300;
+      margin-bottom: 14px;
+    }
+    ul {
+      margin: 10px 0 16px 0;
+      padding-left: 0;
+      list-style: none;
+    }
+    ul li {
+      font-size: 0.95rem;
+      color: var(--ink-soft);
+      font-weight: 300;
+      line-height: 1.7;
+      padding: 4px 0 4px 18px;
+      position: relative;
+    }
+    ul li::before {
+      content: '✦';
+      color: var(--gold);
+      font-size: 0.55rem;
+      position: absolute;
+      left: 0;
+      top: 8px;
+    }
+    .highlight-box {
+      background: rgba(201,168,76,0.08);
+      border: 1px solid rgba(201,168,76,0.2);
+      border-left: 3px solid var(--gold);
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin: 20px 0;
+      font-size: 0.9rem;
+      color: var(--ink-soft);
+      line-height: 1.7;
+    }
+    .contact-card {
+      background: var(--paper-warm);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      margin-top: 48px;
+      text-align: center;
+    }
+    .contact-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      font-style: italic;
+      color: var(--ink);
+      margin-bottom: 8px;
+    }
+    .contact-card p {
+      font-size: 0.875rem;
+      margin-bottom: 0;
+    }
+    .contact-card a {
+      color: var(--gold);
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 0.75rem;
+      color: var(--ink-muted);
+      border-top: 1px solid var(--border);
+    }
+    @media (max-width: 768px) {
+      nav { padding: 14px 20px; }
+      .container { padding: 40px 20px 80px; }
+      .page-title { font-size: 2.2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">Melius<span>.</span></a>
+  <a href="/" class="nav-back">← Back to home</a>
+</nav>
+
+<div class="container">
+  <p class="page-eyebrow">Legal</p>
+  <h1 class="page-title">Privacy Policy</h1>
+  <p class="page-updated">Last updated: April 2025 · Effective immediately</p>
+
+  <p class="intro">
+    At Melius AI, your privacy is a core value — not an afterthought. This policy explains clearly and honestly what data we collect, why we collect it, how we use it, and what control you have over it. We believe you deserve to know exactly how your personal AI agent works.
+  </p>
+
+  <div class="highlight-box">
+    Melius is built by two teenage founders who care deeply about trust. We will never sell your data, never share it with advertisers, and never use it in ways you haven't agreed to.
+  </div>
+
+  <h2>1. Who we are</h2>
+  <p>Melius AI is a personal AI agent product. Our web app is available at melius-ai-v1.vercel.app and our marketing website at getmeliusai.com. For any privacy questions, contact us at the email at the bottom of this page.</p>
+
+  <h2>2. What data we collect</h2>
+  <p>We only collect data that is necessary for Melius to work properly for you.</p>
+  <p><strong>Account data:</strong></p>
+  <ul>
+    <li>Email address — used for login and account management</li>
+    <li>Name — used to personalize your experience</li>
+    <li>Profile information you provide — age, lifestyle, weekly goals, notes</li>
+  </ul>
+  <p><strong>Usage data:</strong></p>
+  <ul>
+    <li>Chat messages and conversations — saved so you can access them later</li>
+    <li>Daily plans and schedules generated for you</li>
+    <li>Activity log — what features you used and when</li>
+    <li>Calorie tracking data you enter or upload</li>
+  </ul>
+  <p><strong>Uploaded content:</strong></p>
+  <ul>
+    <li>Images you upload for food analysis — processed by OpenAI, not stored permanently</li>
+    <li>Files and documents you upload for analysis — processed temporarily, not stored</li>
+  </ul>
+  <p><strong>We do NOT collect:</strong></p>
+  <ul>
+    <li>Payment or financial information</li>
+    <li>Your location unless you explicitly share it in a message</li>
+    <li>Contacts, calendar data, or other device data on the web app</li>
+    <li>Any data without your knowledge or consent</li>
+  </ul>
+
+  <h2>3. How we use your data</h2>
+  <ul>
+    <li>To provide personalized AI responses based on your profile and history</li>
+    <li>To save your chat history so you can continue conversations</li>
+    <li>To remember your goals and preferences across sessions</li>
+    <li>To improve Melius — we may analyze anonymized usage patterns to make the product better</li>
+    <li>To send important account emails — we do not send marketing emails without your consent</li>
+  </ul>
+
+  <h2>4. Third party services we use</h2>
+  <p>To provide Melius, we use the following trusted third party services:</p>
+  <ul>
+    <li><strong>Supabase</strong> — stores your account data, chat history, and plans securely. GDPR compliant.</li>
+    <li><strong>OpenAI</strong> — processes your messages to generate AI responses. Your messages are sent to OpenAI's API. OpenAI's privacy policy applies to this processing.</li>
+    <li><strong>Brave Search API</strong> — used when Melius performs a web search on your behalf. Queries are sent to Brave Search.</li>
+    <li><strong>Vercel</strong> — hosts our web application. Standard web hosting logs may apply.</li>
+    <li><strong>Render</strong> — hosts our backend API server.</li>
+  </ul>
+  <div class="highlight-box">
+    We do not use your data for advertising. We do not sell your data to any third party. Ever.
+  </div>
+
+  <h2>5. Data storage and security</h2>
+  <p>Your data is stored securely in Supabase's database with row-level security — meaning only you can access your own data. All connections are encrypted using HTTPS. We follow industry best practices for security.</p>
+  <p>Chat messages and plans are stored until you delete them or close your account. You can delete your account at any time by contacting us.</p>
+
+  <h2>6. Your rights</h2>
+  <p>You have the right to:</p>
+  <ul>
+    <li>Access all data we hold about you</li>
+    <li>Correct any inaccurate data</li>
+    <li>Delete your account and all associated data</li>
+    <li>Export your data</li>
+    <li>Withdraw consent at any time</li>
+    <li>Lodge a complaint with your local data protection authority</li>
+  </ul>
+  <p>To exercise any of these rights, contact us using the email below. We will respond within 30 days.</p>
+
+  <h2>7. Children's privacy</h2>
+  <p>Melius AI is not directed at children under 13. We do not knowingly collect personal data from children under 13. If you are between 13 and 18, please ensure a parent or guardian has reviewed this policy. If you believe a child has provided us with personal data, contact us immediately.</p>
+
+  <h2>8. Voice and audio data</h2>
+  <p>When you use the voice orb feature, your voice is processed locally in your browser using the Web Speech API. Audio is converted to text in real time and only the text transcript is sent to our servers — not the audio recording itself. We do not store audio recordings.</p>
+
+  <h2>9. Cookies</h2>
+  <p>We use minimal, essential cookies only — for authentication and session management. We do not use advertising cookies or third-party tracking cookies.</p>
+
+  <h2>10. Changes to this policy</h2>
+  <p>We may update this Privacy Policy as Melius grows and adds new features. We will notify you of significant changes by email or by displaying a notice in the app. The "last updated" date at the top will always reflect the most recent version.</p>
+
+  <h2>11. Contact us</h2>
+  <p>If you have any questions about this Privacy Policy or how we handle your data, please contact us. We're a small team and we read every message personally.</p>
+
+  <div class="contact-card">
+    <h3>Get in touch</h3>
+    <p>Email: <a href="mailto:privacy@getmeliusai.com">privacy@getmeliusai.com</a></p>
+    <p style="margin-top: 8px;">Website: <a href="https://getmeliusai.com">getmeliusai.com</a></p>
+  </div>
+</div>
+
+<footer>
+  © 2025 Melius AI · <a href="/" style="color: #C9A84C; text-decoration: none;">getmeliusai.com</a>
+</footer>
+
+</body>
+</html>
